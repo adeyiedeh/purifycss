@@ -147,7 +147,7 @@ CssTree.prototype.filterAtRules = function(classes, htmlEls, ids){
       return;
     }
     for(var i = 1; i < branch.length; i++){
-      if(branch[i][0] !== 'atrulers'){
+      if(branch[i][0] !== 'trulers'){
         continue;
       }
 
